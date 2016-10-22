@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorHumphriesDotCom", "ConnorHumphriesDotCom\ConnorHumphriesDotCom.csproj", "{208D3055-740E-4744-B07D-CBC0F970FA21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{58AD2A85-499E-4123-828D-0DBB52FFF6EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{DC2D3F10-BDDB-4664-A093-D75CC69B68C9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{199AC3D4-5E83-41A3-9C0A-7054D49D3EB2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ConnorHumphriesDotCom.json = PublishScripts\Templates\ConnorHumphriesDotCom.json
+		PublishScripts\Templates\ConnorHumphriesDotCom.param.dev.json = PublishScripts\Templates\ConnorHumphriesDotCom.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208D3055-740E-4744-B07D-CBC0F970FA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208D3055-740E-4744-B07D-CBC0F970FA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208D3055-740E-4744-B07D-CBC0F970FA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208D3055-740E-4744-B07D-CBC0F970FA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC2D3F10-BDDB-4664-A093-D75CC69B68C9} = {58AD2A85-499E-4123-828D-0DBB52FFF6EA}
+		{199AC3D4-5E83-41A3-9C0A-7054D49D3EB2} = {58AD2A85-499E-4123-828D-0DBB52FFF6EA}
+	EndGlobalSection
+EndGlobal
