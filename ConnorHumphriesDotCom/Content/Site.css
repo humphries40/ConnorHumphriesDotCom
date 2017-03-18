@@ -22,3 +22,14 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+/* Sprites */
+
+.FacebookIcon { 
+  background-image: url(Images/flat-social-media-icons-enfuzed.png);
+  background-position: 6.2% 20.4%;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+} 

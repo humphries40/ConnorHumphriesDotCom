@@ -13,10 +13,8 @@ namespace ConnorHumphriesDotCom.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Social()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
